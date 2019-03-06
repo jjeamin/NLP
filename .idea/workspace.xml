@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3d17dd3-d9cf-4d9c-989a-dca698a5069f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Normalization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preprocessing/regular_expression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preprocessing/remover.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preprocessing/subword_segentation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Normalization.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/Normalization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Token.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/Token.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/download.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,41 +22,7 @@
     <favorites_list name="NLP_study" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/download.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Token.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Normalization.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -68,13 +40,16 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Token.py" />
         <option value="$PROJECT_DIR$/Normalization.py" />
+        <option value="$PROJECT_DIR$/remover.py" />
+        <option value="$PROJECT_DIR$/regular_expression.py" />
+        <option value="$PROJECT_DIR$/subword_segentation.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="width" value="854" />
+    <option name="height" value="1017" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -100,6 +75,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\woals\Git_store\NLP_study\preprocessing" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -112,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Normalization">
+  <component name="RunManager" selected="Python.regular_expression">
     <configuration name="Normalization" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,7 +105,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Normalization.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\woals\Git_store\NLP_study\preprocessing\Normalization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +126,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Token.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\woals\Git_store\NLP_study\preprocessing\Token.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,7 +147,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/download.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\woals\Git_store\NLP_study\preprocessing\download.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="regular_expression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,7 +168,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\woals\Git_store\NLP\download.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\woals\Git_store\NLP_study\preprocessing\regular_expression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="remover" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NLP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\woals\Git_store\NLP_study\preprocessing\remover.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,10 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.regular_expression" />
+        <item itemvalue="Python.remover" />
         <item itemvalue="Python.Normalization" />
         <item itemvalue="Python.Token" />
         <item itemvalue="Python.download" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551794321748</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init Normalization">
+      <created>1551844547989</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551844547989</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -244,15 +253,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="854" height="1017" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2863248" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2855392" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24969843" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32991555" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4987745" visible="true" weight="0.33734939" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987745" visible="true" weight="0.34881088" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -279,16 +287,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="init Token" />
-    <option name="LAST_COMMIT_MESSAGE" value="init Token" />
+    <MESSAGE value="init Normalization" />
+    <option name="LAST_COMMIT_MESSAGE" value="init Normalization" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/download.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/datamining1_intro.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -296,9 +298,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Token.py">
+    <entry file="file://$PROJECT_DIR$/preprocessing/download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="40">
+          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/subword_segentation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/Token.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -306,13 +322,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Normalization.py">
+    <entry file="file://$PROJECT_DIR$/preprocessing/Normalization.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="580">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/remover.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/regular_expression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
