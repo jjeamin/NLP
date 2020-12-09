@@ -1,16 +1,20 @@
-# Simple Tutorials
+# 1_Simple Tutorials
 
 - Normalization
 - Tokenization
 - Regular Expression
 - Stopword
 
-# Text Classification
+# Text Classification Process
 
-1. Data Collection
-2. Preprocessing
-3. Vectorization
-4. Word Embedding
-5. Modeling
-6. Training...
+1. Preprocessing
+2. Vectorization
+3. Word Embedding
+4. Make Model
+5. Train
 
+# Deep Learning Tools for Text
+
+1. Keras : 2_Text Classification Keras
+
+2. Torchtext : 3_Text Classification Torchtext

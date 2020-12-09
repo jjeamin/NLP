@@ -1,3 +1,4 @@
+"""https://dacon.io/competitions/official/235658/codeshare/1844?page=1&dtype=recent&ptype=pub"""
 import os
 import pandas as pd
 from pathlib import Path
